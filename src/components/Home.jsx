@@ -14,7 +14,7 @@ const Home = () => {
           <h2 className="text-3xl pt-6 sm:pt-3 sm:text-7xl font-semibold sm:font-bold text-white">
             I'm a Frontend Developer
           </h2>
-          <p className="text-gray-500 pt-1 pb-4 max-w-md flex-wrap sm:py-5 text-[0.69rem] sm:text-[1.3rem]">
+          <p className="text-gray-500 pt-1 pb-4 max-w-md flex-wrap sm:py-5 text-[0.72rem] sm:text-[1.3rem]">
             Passionate about frontend development, I thrive on crafting dynamic
             and intuitive web applications. My love for modern technologies
             drives me to create engaging user experiences. Let's build the
