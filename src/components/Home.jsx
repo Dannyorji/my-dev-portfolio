@@ -7,14 +7,14 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
+      className="h-screen md:h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 text-[0.6rem] sm:text-[1rem]"
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
+      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center w-full h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-3xl pt-6 sm:text-6xl font-bold text-white">
+          <h2 className="text-3xl pt-6 sm:pt-3 sm:text-7xl font-semibold sm:font-bold text-white">
             I'm a Frontend Developer
           </h2>
-          <p className="text-gray-500 pt-2 pb-4 max-w-md">
+          <p className="text-gray-500 pt-1 pb-4 max-w-md flex-wrap sm:py-5 text-[0.69rem] sm:text-[1.3rem]">
             Passionate about frontend development, I thrive on crafting dynamic
             and intuitive web applications. My love for modern technologies
             drives me to create engaging user experiences. Let's build the
@@ -26,7 +26,7 @@ const Home = () => {
               to="projects"
               smooth
               duration={500}
-              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
+              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer text-[0.8rem] sm:text-[1rem]"
             >
               Portfolio
               <span className="group-hover:rotate-90 duration-300">
