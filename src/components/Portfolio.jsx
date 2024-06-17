@@ -1,6 +1,6 @@
 import React from "react";
 import foodRepublic from "../assets/portfolio/foodRepublic.jpg";
-import NetflixClone from "../assets/portfolio/NetflixClone.jpg";
+import PCRecommender from "../assets/portfolio/PCrecommender.jpg";
 import Quizapp from "../assets/portfolio/Quizapp.jpg";
 import ShoppingCart from "../assets/portfolio/ShoppingCart.jpg";
 
@@ -14,9 +14,9 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: NetflixClone,
-      demoLink: "https://netflix-clone-fb.netlify.app/",
-      codeLink: "https://github.com/Dannyorji/Netflix-clone",
+      src: PCRecommender,
+      demoLink: "https://pcrecommender.netlify.app/",
+      codeLink: "https://github.com/Dannyorji/pc-recommender",
     },
     {
       id: 3,
